@@ -2,7 +2,7 @@
 问题：
 1.遇到了空格的问题
     "hey hello a"能匹配"?*x hello ?*y"，但"hello"无法匹配，待优化
-2.中文处理未写完
+2.中文处理手写的硬代码规则，单独处理了"?*x""?*y""?*z"等等，是否有更好的方法？
 """
 from collections import defaultdict
 import random
